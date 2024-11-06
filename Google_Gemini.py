@@ -24,9 +24,9 @@ model = genai.GenerativeModel(
 
 def get_db_connection():
     return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
+        host='psicoprofilerbase.cjyqac284d9y.us-east-2.rds.amazonaws.com',
+        user='psycoadmin',
+        password='Pdkua1NCSVP47NYy29Oa',
         db='psycobase',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
